@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     box-sizing: border-box;
@@ -8,7 +9,7 @@
 body {
     text-align: center;
     padding-top: 160px;
-    background-image: url(./background.jpg);
+    background-image: url(https://i.ibb.co/VqbvX0B/background.jpg);
     background: no-repeat;
     background-size: cover;
     background-position: center;
