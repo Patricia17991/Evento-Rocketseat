@@ -15,4 +15,4 @@ Desafio-01:
 
 Desafio-01:
 
-![Evento-Rocketseat]()
+![Evento-Rocketseat](https://github.com/Patricia17991/Evento-Rocketseat/blob/main/Lading-page/src/assets/Captura%20de%20Tela%20(141).png?raw=true)
