@@ -6,12 +6,16 @@
 }
 
 body {
-    background-image: url(./assets/background.jpg);
+    background: url(./assets/background.jpg) no-repeat center/cover;
     text-align: center;
     padding-top: 160px;
+    color: #EBF1FB;
+
+    /*center elements*/
+    display: grid;
+    place-content: center;
 
     height: 100vh;
-
     font-family: 'Spectral',sans-serif ;
 }
 
@@ -19,37 +23,38 @@ h1 span {
     color: #5EEAD4;
 }
 
+a:hover,
 .button {
-    margin: 0;
     background: #5EEAD4;
     color: #0B0C0E;
     border-radius: 8px;
     text-decoration: none;
 }
 
+.button:hover {
+    background: #AAEEE4;
+}
+
 a {
-    font-weight: 700;
-    padding: 12px 32px;
-    font-size: 20px;
+    font-weight: 600;
+    padding: 16px 32px;
+    font-size: 24px;
     line-height: 24px;
     color: #EBF1FB;
 }
 
-
-
-
 h1 {
     font-weight: 400;
-    color: #EBF1FB;
     font-size: 64px;
-    line-height: 80px;
+    line-height: 120px;
     font-family: 'Beth Ellen', cursive;
 }
 
-h2 {
+p {
     font-family: 'Spectral', sans-serif;
-    font-weight: 100;
+    font-weight: 500;
     color: #EBF1FB;
+    font-size: 20px;
+    line-height: 30px;
     margin-bottom: 72px;
-    padding-top: 20px;
 }
