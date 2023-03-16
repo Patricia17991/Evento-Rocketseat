@@ -6,19 +6,16 @@
 }
 
 body {
-    background-image: url(./assets/background.png);
+    background: url(./assets/background.png) no-repeat center/cover;
     text-align: center;
     padding-top: 160px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 
     height: 100vh;
 
     font-family: 'Inter',sans-serif ;
 }
 
-h1 span {
+span {
     color: #DB2777;
 }
 
@@ -56,7 +53,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'Regular', sans-serif;
+    font-family: Regular, 'sans-serif';
     font-weight: 100;
     color: #2C2E2F;
     margin-bottom: 72px;
